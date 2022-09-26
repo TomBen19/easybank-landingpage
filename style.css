@@ -1,0 +1,376 @@
+ .attribution {
+   font-size: 11px;
+   text-align: center;
+ }
+
+ .attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+
+ .mockupImage {
+  position: relative;
+  bottom: 135px;
+  
+  
+  max-width: 100%;
+  height: 52vh;
+  
+  
+  margin: 0;
+  
+ }
+
+
+ @font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  src: url(https://fonts.gstatic.com/s/publicsans/v14/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpmJxAco.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+p, h1, h2, h3 {
+  font-family: 'Public Sans';
+  
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.75em;
+}
+body {
+  text-align: center;
+  font-family: 'Public Sans';
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  
+}
+
+.greyBackground {
+  position: relative;
+  bottom: 130px;
+  background-color:  hsl(220, 16%, 96%);
+  margin: 5em 0;
+  padding: 3em 1em;
+  
+}
+
+header {
+  position: relative;
+  text-align: left;
+  margin-left: 1em;
+  
+  margin-bottom: 0em;
+  padding-left: 0.75em;
+  padding-top: 1em;
+  z-index: 1;
+  background-color: white;
+  
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
+}
+h2 {
+  position: relative;
+    bottom: 130px;
+}
+
+.heading {
+  
+  font-size:40px;
+  font-weight: 200;
+  margin-bottom: 0.5em;
+  
+  
+  
+  
+}
+
+.articleImages {
+  max-width: 100%;
+  
+  height: auto;
+  aspect-ratio: 16/9;
+  
+  
+  
+  
+}
+.logo {
+  margin-top: 0.3em;
+}
+
+.smallHeading {
+  font-size: 32px;
+  padding-top: 0.6em;
+}
+
+footer {
+  position: relative;
+   
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  font-size: 14px;
+  
+  padding: 3em 0;
+}
+
+.copyright {
+  color: hsl(233, 8%, 62%);
+  margin-top: 0.75em;
+}
+
+.footer-links {
+  margin-top: 1.2em;
+  color: hsl(220, 16%, 96%);
+  font-weight: 200;
+}
+
+.descriptionText {
+  color:  hsl(233, 8%, 62%);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 160%;
+  margin-bottom: 2em;
+  margin-left: 0;  
+  
+}
+
+.inviteButton {
+  background-image: linear-gradient(to bottom right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-radius: 50px;
+  padding: 1.2em 3em;
+  color: white;
+  margin: 1.5em;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.article {
+  background-color: white;
+  margin-bottom: 1.5em;
+  margin-top: 0;
+  text-align: left;
+  
+  margin-right: 1em;
+  
+ 
+  
+  
+}
+
+.articleContainer {
+  position: relative;
+    bottom: 130px;
+  margin: 1.5rem;
+  
+}
+
+p {
+  margin: 0 0.3rem 1rem;
+  padding-top: 0;
+}
+
+.test {
+
+  background-image: url('images/bg-intro-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -80px;
+  
+
+}
+
+.footer-icons {
+  margin: 2.3em 0.4em;
+  height: 2.6vh;
+}
+
+.first {
+  position: relative;
+  bottom: 120px;
+  padding: 0 1.5em;
+  
+  
+  
+  
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  font-size: 16px;
+  border: none;
+  margin-right: 2em;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  
+ 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.desktop-navbar {
+  display: none;
+  
+}
+
+.navbar-items:hover {
+  text-decoration: underline hsl(136, 65%, 51%) 3px;
+  text-underline-offset: 1em;
+
+}
+.author-name {
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+  font-size: 10px;
+  margin-top: 2em;
+  padding-left: 0.35em;
+ 
+
+}
+
+.article-description {
+  color: hsl(233, 8%, 62%);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 140%;
+    
+    padding-bottom: 3em;
+
+}
+
+.article-heading {
+  
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 0.6em;
+   
+   
+   
+
+}
+.article-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+  .first {
+    bottom: 0px;
+    padding: 10em 10em;
+    text-align: left;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    
+  }
+  .mockupImage {
+    width: 60vw;
+    height: 70vh;
+    bottom: 60px;
+    z-index: 1;
+    
+   
+  }
+  .flex-container2 {
+    display: flex;
+    padding: 0 5em;
+    
+    
+    
+    
+   }
+   .articleContainer {
+    display: flex;
+    padding: 0 7em;
+    margin-top: 3em;
+    margin-bottom: 0;
+   }
+  .flex-container3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .greyBackground {
+    text-align: left;
+    margin: 0;
+    bottom: 210px;
+    padding-left: 2rem;
+  }
+
+  .desktop-navbar {
+    display:contents;
+    
+  }
+
+  .dropbtn {
+    display: none;
+  }
+
+  .inviteButton:hover {
+    background-image: linear-gradient(to bottom right, hsl(136, 73%, 62%), hsl(192, 90%, 66%));
+  }
+  header {
+    z-index: 2;
+  }
+
+  .test {
+    background-image: url('images/bg-intro-desktop.svg');
+    
+  }
+  .grey-background-head  {
+    margin-left: 7rem;
+  }
+
+  .reasons-easybank {
+    margin-left: 2rem;
+    
+  }
+  h2 {
+    text-align: left;
+    margin-left: 4.7em;
+    font-size: 32px;
+  }
+  .article {
+    margin-left: 1rem;
+  }
+
+  .smallHeading {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+  }
+  .heading {
+    margin-left: 0;
+  }
+  
+}
